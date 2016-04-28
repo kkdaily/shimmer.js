@@ -5,7 +5,7 @@ $(document).ready(function() {
         //add css animation rule to header
         $('<style>@keyframes shimmerFadeIn {from {opacity:0;} to {opacity:1;}}</style>').appendTo('head');
 
-        //get all text with the 'fancy-text' class
+        //get all text with the 'shimmer-text' class
         $('.shimmer-text').each(function (n) {
             var characters = $(this).text().split("");
             $this = $(this);
@@ -30,7 +30,7 @@ $(document).ready(function() {
                         "animation-delay": delay + "s",
                         "-webkit-animation-fill-mode": "forwards"});
         });
-        
+
     })();
     
 });

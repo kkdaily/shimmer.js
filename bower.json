@@ -1,0 +1,24 @@
+{
+  "name": "shimmer.js",
+  "description": "Shimmering transition effect for text",
+  "main": "shimmer.js",
+  "authors": [
+    "Kathleen Daily"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jquery",
+    "transition",
+    "text",
+    "effect"
+  ],
+  "homepage": "https://github.com/kathleendaily/shimmer.js",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
